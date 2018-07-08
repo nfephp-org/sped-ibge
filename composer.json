@@ -1,0 +1,50 @@
+{
+    "name": "nfephp-org/sped-ibge",
+    "type": "library",
+    "description": "Librery to access the services of IBGE to obtain the codes used by the system SPED",
+    "homepage": "https://github.com/nfephp-org/sped-ibge",
+    "keywords": ["Sped", "IBGE", "Municipios", "Estatos"],
+    "license": ["LGPL-3.0-or-later", "GPL-3.0-or-later", "MIT"],
+    "authors": [
+        {
+            "name": "Roberto L. Machado",
+            "email": "linux.rlm@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php" : ">=7.0",
+        "ext-curl": "*",
+        "ext-json": "*",
+        "ext-mbstring": "*",
+        "league/flysystem": "^1.0"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^2.8",
+        "phpunit/phpunit": "^5.7",
+        "scrutinizer/ocular": "^1.3",
+        "phpstan/phpstan": "^0.9.1"
+    },
+    "autoload": {
+        "psr-4": {
+          "NFePHP\\Ibge\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "NFePHP\\Ibge\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "phpunit",
+        "phpcbf": "vendor/bin/phpcbf --standard=psr2 src/",
+        "phpcs": "vendor/bin/phpcs --standard=psr2 src/",
+        "phpstan": "vendor/bin/phpstan analyse src/ --level 7"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    },
+    "minimum-stability": "stable"
+}
