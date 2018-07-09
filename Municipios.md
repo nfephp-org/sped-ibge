@@ -111,7 +111,7 @@ try {
 ## Método modificador refresh()
 
 O modificador refresh() força a atualização do dado fornecido, e deve ser usado com quando existem alterações de estados ou municipios e desejamos atualizar esses dados.
-Inicialmente os estados e municipios (de todos os estados brasileiros) são mantidos em arquivos na pasta storage, e esse modificar os atualiza.
+Inicialmente os estados e municipios (de todos os estados brasileiros) são mantidos em arquivos na pasta storage, e esse modificador os atualiza.
 
 ```php
 use NFePHP\Ibge\Ibge;

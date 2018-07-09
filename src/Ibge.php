@@ -30,7 +30,7 @@ class Ibge
     }
 
     /**
-     * Returns this class setting for states 
+     * Returns this class setting for states
      * @return $this
      */
     public function estados()
@@ -53,7 +53,7 @@ class Ibge
         $cUF = '';
         $ufs = json_decode($this->ufs);
         if (!is_numeric($uf)) {
-            $this->uf = $uf;
+            $this->lastuf = $uf;
             foreach ($ufs as $u) {
                 if ($u->sigla == $uf) {
                     $cUF = $u->id;
@@ -61,16 +61,16 @@ class Ibge
                 }
             }
         } else {
-            $cUF = $uf;
             foreach ($ufs as $u) {
-                if ($u->id == $cUF) {
-                    $this->uf = $u->sigla;
+                if ($u->id == $uf) {
+                    $this->lastuf = $u->sigla;
+                    $cUF = $uf;
                     break;
                 }
             }
         }
         if (empty($cUF)) {
-            throw new \Exception("Esse estado [$uf] não existe!");
+            throw new \InvalidArgumentException("Esse estado [$uf] não existe!");
         }
         $this->lastconsult = self::MUNICIPIOS;
         $this->lastcuf = $cUF;

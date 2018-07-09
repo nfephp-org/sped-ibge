@@ -27,6 +27,7 @@ Esta classe possui 2 métodos principais e vários modificadores.
 
 ## [function municipios($uf)](Municipios.md)
 
+> *IMPORTANTE: a pasta "storage" deve ter permissões de escrita pelo usuário que executa o PHP.*
 
 ## Install
 
