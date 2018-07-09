@@ -29,16 +29,21 @@ Esta classe possui 2 métodos principais e vários modificadores.
 ## [function municipios($uf)](Municipios.md)
 
 
-[ico-stable]: https://poser.pugx.org/nfephp-org/sped-ibge/version
-[ico-stars]: https://img.shields.io/github/stars/nfephp-org/sped-ibge.svg?style=flat-square
-[ico-forks]: https://img.shields.io/github/forks/nfephp-org/sped-ibge.svg?style=flat-square
-[ico-issues]: https://img.shields.io/github/issues/nfephp-org/sped-ibge.svg?style=flat-square
-[ico-travis]: https://img.shields.io/travis/nfephp-org/sped-ibge/master.svg?style=flat-square
-[ico-scrutinizer]: https://img.shields.io/scrutinizer/coverage/g/nfephp-org/sped-ibge.svg?style=flat-square
-[ico-code-quality]: https://img.shields.io/scrutinizer/g/nfephp-org/sped-ibge.svg?style=flat-square
-[ico-downloads]: https://img.shields.io/packagist/dt/nfephp-org/sped-ibge.svg?style=flat-square
-[ico-version]: https://img.shields.io/packagist/v/nfephp-org/sped-ibge.svg?style=flat-square
+
+
+
+[ico-stable]: https://poser.pugx.org/nfephp-org/sped-ibge/v/version?style=flat
+[ico-downloads]: https://poser.pugx.org/nfephp-org/sped-ibge/downloads?style=flat
 [ico-license]: https://poser.pugx.org/nfephp-org/nfephp/license.svg?style=flat-square
+
+[ico-stars]: https://img.shields.io/github/stars/nfephp-org/sped-ibge.svg
+[ico-forks]: https://img.shields.io/github/forks/nfephp-org/sped-ibge.svg
+[ico-issues]: https://img.shields.io/github/issues/nfephp-org/sped-ibge.svg
+[ico-travis]: https://img.shields.io/travis/nfephp-org/sped-ibge/master.svg
+[ico-scrutinizer]: https://img.shields.io/scrutinizer/coverage/g/nfephp-org/sped-ibge.svg
+[ico-code-quality]: https://img.shields.io/scrutinizer/g/nfephp-org/sped-ibge.svg
+[ico-version]: https://img.shields.io/packagist/v/nfephp-org/sped-ibge.svg
+
 
 
 [link-packagist]: https://packagist.org/packages/nfephp-org/sped-ibge
