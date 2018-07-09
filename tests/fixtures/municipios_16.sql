@@ -1,0 +1,16 @@
+INSERT INTO municipios (id, nome, uf) VALUES (1600055,'Serra do Navio', 'AP');
+INSERT INTO municipios (id, nome, uf) VALUES (1600105,'Amapá', 'AP');
+INSERT INTO municipios (id, nome, uf) VALUES (1600154,'Pedra Branca do Amapari', 'AP');
+INSERT INTO municipios (id, nome, uf) VALUES (1600204,'Calçoene', 'AP');
+INSERT INTO municipios (id, nome, uf) VALUES (1600212,'Cutias', 'AP');
+INSERT INTO municipios (id, nome, uf) VALUES (1600238,'Ferreira Gomes', 'AP');
+INSERT INTO municipios (id, nome, uf) VALUES (1600253,'Itaubal', 'AP');
+INSERT INTO municipios (id, nome, uf) VALUES (1600279,'Laranjal do Jari', 'AP');
+INSERT INTO municipios (id, nome, uf) VALUES (1600303,'Macapá', 'AP');
+INSERT INTO municipios (id, nome, uf) VALUES (1600402,'Mazagão', 'AP');
+INSERT INTO municipios (id, nome, uf) VALUES (1600501,'Oiapoque', 'AP');
+INSERT INTO municipios (id, nome, uf) VALUES (1600535,'Porto Grande', 'AP');
+INSERT INTO municipios (id, nome, uf) VALUES (1600550,'Pracuúba', 'AP');
+INSERT INTO municipios (id, nome, uf) VALUES (1600600,'Santana', 'AP');
+INSERT INTO municipios (id, nome, uf) VALUES (1600709,'Tartarugalzinho', 'AP');
+INSERT INTO municipios (id, nome, uf) VALUES (1600808,'Vitória do Jari', 'AP');

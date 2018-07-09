@@ -7,7 +7,7 @@ use NFePHP\Ibge\Ibge;
 
 try {
     $ibge = new Ibge();
-    $resp = $ibge->cidades('all')->toSQL();
+    $resp = $ibge->cidades('16')->get();
     echo "<pre>";
     print_r($resp);
     echo "</pre>";
