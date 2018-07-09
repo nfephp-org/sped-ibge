@@ -8,7 +8,6 @@ Para uso dos projetos SPED da Receita Federal e das SEFAZ.
 [![Quality Score][ico-code-quality]][link-code-quality]
 
 [![Latest Stable Version][ico-stable]][link-packagist]
-[![Latest Version on Packagist][ico-version]][link-packagist]
 [![License][ico-license]][link-packagist]
 [![Total Downloads][ico-downloads]][link-downloads]
 
@@ -28,6 +27,47 @@ Esta classe possui 2 métodos principais e vários modificadores.
 
 ## [function municipios($uf)](Municipios.md)
 
+
+## Install
+
+**Este pacote está listado no [Packgist](https://packagist.org/) foi desenvolvido para uso do [Composer](https://getcomposer.org/), portanto não será explicitada nenhuma alternativa de instalação.**
+
+*E deve ser instalado com:*
+```bash
+composer require nfephp-org/sped-ibge
+```
+Ou ainda alterando o composer.json do seu aplicativo inserindo:
+```json
+"require": {
+    "nfephp-org/sped-ibge" : "^1.0"
+}
+```
+
+*Para utilizar o pacote em desenvolvimento (branch master) deve ser instalado com:*
+```bash
+composer require nfephp-org/sped-ibge:dev-master
+```
+
+*Ou ainda alterando o composer.json do seu aplicativo inserindo:*
+```json
+"require": {
+    "nfephp-org/sped-ibge" : "dev-master"
+}
+```
+
+> NOTA: Ao utilizar este pacote na versão em desenvolvimento não se esqueça de alterar o composer.json da sua aplicação para aceitar pacotes em desenvolvimento, alterando a propriedade "minimum-stability" de "stable" para "dev".
+> ```json
+> "minimum-stability": "dev"
+> ```
+
+## Requirements
+
+Para que este pacote possa funcionar são necessários os seguintes requisitos do PHP e outros pacotes dos quais esse depende.
+
+- PHP PHP 7.x (recomendável PHP 7.2) 
+- ext-curl
+- ext-json
+- [league/flysystem](https://packagist.org/packages/league/flysystem)
 
 
 

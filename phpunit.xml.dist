@@ -10,7 +10,7 @@
          processIsolation="false"
          stopOnFailure="false">
     <testsuites>
-        <testsuite name="sped-esocial Test Suite">
+        <testsuite name="sped-ibge Test Suite">
             <directory>tests</directory>
         </testsuite>
     </testsuites>
