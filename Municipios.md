@@ -14,7 +14,7 @@ use NFePHP\Ibge\Ibge;
 try {
     $uf = 'SP';
     $ibge = new Ibge();
-    $resp = $ibge->municipios($uf)->get();
+    $resp = $ibge->cidades($uf)->get();
     echo "<pre>";
     print_r($resp);
     echo "</pre>";
@@ -33,7 +33,7 @@ use NFePHP\Ibge\Ibge;
 try {
     $uf = 35;
     $ibge = new Ibge();
-    $resp = $ibge->municipios($uf)->toStd();
+    $resp = $ibge->cidades($uf)->toStd();
     echo "<pre>";
     print_r($resp);
     echo "</pre>";
@@ -52,7 +52,7 @@ use NFePHP\Ibge\Ibge;
 try {
     $uf = 'AM';
     $ibge = new Ibge();
-    $resp = $ibge->municipios($uf)->toArray();
+    $resp = $ibge->cidades($uf)->toArray();
     echo "<pre>";
     print_r($resp);
     echo "</pre>";
@@ -74,7 +74,7 @@ try {
     $uf = 'RJ';
     $separador = '|';
     $ibge = new Ibge();
-    $resp = $ibge->municipios($uf)->toCSV($separador);
+    $resp = $ibge->cidades($uf)->toCSV($separador);
     echo "<pre>";
     print_r($resp);
     echo "</pre>";
@@ -98,7 +98,7 @@ try {
     $uf = 'all';
     $tabela = 'estados';
     $ibge = new Ibge();
-    $resp = $ibge->municipios($uf)->toSQL($tabela);
+    $resp = $ibge->cidades($uf)->toSQL($tabela);
     echo "<pre>";
     print_r($resp);
     echo "</pre>";
@@ -118,7 +118,24 @@ use NFePHP\Ibge\Ibge;
 
 try {
     $ibge = new Ibge();
-    $resp = $ibge->municipios('all')->refresh()->get();
+    $resp = $ibge->cidades('all')->refresh()->get();
+    echo "<pre>";
+    print_r($resp);
+    echo "</pre>";
+} catch (\Exception $e) {
+    echo $e->getMessage();
+}
+```
+
+## Estaticamente
+
+A classe também pode ser invocada estaticamente.
+
+```php
+use NFePHP\Ibge\Ibge;
+
+try {
+    $resp = Ibge::uf('AP')->cidades()->get();
     echo "<pre>";
     print_r($resp);
     echo "</pre>";

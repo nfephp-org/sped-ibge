@@ -1,7 +1,7 @@
 {
     "name": "nfephp-org/sped-ibge",
     "type": "library",
-    "description": "Librery to access the services of IBGE to obtain the codes used by the system SPED",
+    "description": "Library to access the services of IBGE to obtain the codes used by the system SPED",
     "homepage": "https://github.com/nfephp-org/sped-ibge",
     "keywords": ["Sped", "IBGE", "Municipios", "Estatos"],
     "license": ["LGPL-3.0-or-later", "GPL-3.0-or-later", "MIT"],
@@ -9,20 +9,21 @@
         {
             "name": "Roberto L. Machado",
             "email": "linux.rlm@gmail.com",
+            "homepage": "https://github.com/nfephp-org",
             "role": "Developer"
         }
     ],
     "require": {
         "php" : ">=7.0",
         "ext-curl": "*",
-        "ext-json": "*",
-        "league/flysystem": "^1.0"
+        "ext-json": "*"
     },
     "require-dev": {
-        "squizlabs/php_codesniffer": "^2.8",
-        "phpunit/phpunit": "^5.7",
+        "squizlabs/php_codesniffer": "dev-master",
+        "phpunit/phpunit": "^6",
         "scrutinizer/ocular": "^1.3",
-        "phpstan/phpstan": "^0.9.1"
+        "phpstan/phpstan": "^0.12.99",
+        "phpcompatibility/php-compatibility": "^9.3"
     },
     "autoload": {
         "psr-4": {
@@ -35,10 +36,10 @@
         }
     },
     "scripts": {
-        "test": "phpunit",
-        "phpcbf": "vendor/bin/phpcbf --standard=psr2 src/",
-        "phpcs": "vendor/bin/phpcs --standard=psr2 src/",
-        "phpstan": "vendor/bin/phpstan analyse src/ --level 7"
+        "test": "vendor/bin/phpunit -c phpunit.xml.dist",
+        "phpcbf": "vendor/bin/phpcbf src/ tests/",
+        "phpcs": "vendor/bin/phpcs src/ tests/",
+        "stan": "vendor/bin/phpstan analyse src/ tests/"
     },
     "extra": {
         "branch-alias": {

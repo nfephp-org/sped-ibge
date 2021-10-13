@@ -7,7 +7,22 @@ use NFePHP\Ibge\Ibge;
 
 try {
     $ibge = new Ibge();
+    
+    //retorna JSON
     $resp = $ibge->cidades('16')->get();
+    
+    //retorna ARRAY
+    //$resp = $ibge->cidades('16')->toArray();
+    
+    //retorna stdClass
+    //$resp = $ibge->cidades('16')->toStd();
+    
+    //retorna CSV
+    //$resp = $ibge->cidades('16')->toCSV();
+    
+    //retorna SQL
+    //$resp = $ibge->cidades('16')->toSQL();
+    
     echo "<pre>";
     print_r($resp);
     echo "</pre>";
