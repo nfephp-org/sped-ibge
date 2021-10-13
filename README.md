@@ -6,6 +6,7 @@ Para uso dos projetos SPED da Receita Federal e das SEFAZ.
 [![Actions Status][ico-workflow]][link-actions]
 
 [![Latest Stable Version][ico-stable]][link-packagist]
+[![Latest Version on Packagist][ico-version]][link-packagist]
 [![License][ico-license]][link-packagist]
 [![Total Downloads][ico-downloads]][link-downloads]
 
@@ -70,16 +71,15 @@ Para que este pacote possa funcionar são necessários os seguintes requisitos d
 
 
 
+[ico-stable]: https://poser.okvpn.org/nfephp-org/sped-ibge/v/stable
+[ico-version]: https://img.shields.io/packagist/v/nfephp-org/sped-ibge.svg?style=flat-square
 
-[ico-stable]: https://poser.pugx.org/nfephp-org/sped-ibge/v/version?style=flat
 [ico-downloads]: https://poser.pugx.org/nfephp-org/sped-ibge/downloads?style=flat
 [ico-license]: https://poser.pugx.org/nfephp-org/nfephp/license.svg?style=flat-square
 [ico-stars]: https://img.shields.io/github/stars/nfephp-org/sped-ibge.svg
 [ico-forks]: https://img.shields.io/github/forks/nfephp-org/sped-ibge.svg
 [ico-issues]: https://img.shields.io/github/issues/nfephp-org/sped-ibge.svg
 [ico-workflow]: https://github.com/nfephp-org/sped-ibge/actions/workflows/ci.yml/badge.svg?style=flat-square
-[ico-version]: https://img.shields.io/packagist/v/nfephp-org/sped-ibge.svg
-
 
 [link-packagist]: https://packagist.org/packages/nfephp-org/sped-ibge
 [link-actions]: https://github.com/nfephp-org/sped-gtin/actions
