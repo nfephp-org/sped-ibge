@@ -3,9 +3,7 @@
 Esta classe usa a API do IBGE para buscar os estados e seus códigos e as cidades desses estados e seus codigos.
 Para uso dos projetos SPED da Receita Federal e das SEFAZ.
 
-[![Build Status][ico-travis]][link-travis]
-[![Coverage Status][ico-scrutinizer]][link-scrutinizer]
-[![Quality Score][ico-code-quality]][link-code-quality]
+[![Actions Status][ico-workflow]][link-actions]
 
 [![Latest Stable Version][ico-stable]][link-packagist]
 [![License][ico-license]][link-packagist]
@@ -76,20 +74,15 @@ Para que este pacote possa funcionar são necessários os seguintes requisitos d
 [ico-stable]: https://poser.pugx.org/nfephp-org/sped-ibge/v/version?style=flat
 [ico-downloads]: https://poser.pugx.org/nfephp-org/sped-ibge/downloads?style=flat
 [ico-license]: https://poser.pugx.org/nfephp-org/nfephp/license.svg?style=flat-square
-
 [ico-stars]: https://img.shields.io/github/stars/nfephp-org/sped-ibge.svg
 [ico-forks]: https://img.shields.io/github/forks/nfephp-org/sped-ibge.svg
 [ico-issues]: https://img.shields.io/github/issues/nfephp-org/sped-ibge.svg
-[ico-travis]: https://img.shields.io/travis/nfephp-org/sped-ibge/master.svg
-[ico-scrutinizer]: https://img.shields.io/scrutinizer/coverage/g/nfephp-org/sped-ibge.svg
-[ico-code-quality]: https://img.shields.io/scrutinizer/g/nfephp-org/sped-ibge.svg
+[ico-workflow]: https://github.com/nfephp-org/sped-ibge/actions/workflows/ci.yml/badge.svg?style=flat-square
 [ico-version]: https://img.shields.io/packagist/v/nfephp-org/sped-ibge.svg
 
 
 [link-packagist]: https://packagist.org/packages/nfephp-org/sped-ibge
-[link-travis]: https://travis-ci.org/nfephp-org/sped-ibge
-[link-scrutinizer]: https://scrutinizer-ci.com/g/nfephp-org/sped-ibge/code-structure
-[link-code-quality]: https://scrutinizer-ci.com/g/nfephp-org/sped-ibge
+[link-actions]: https://github.com/nfephp-org/sped-gtin/actions
 [link-downloads]: https://packagist.org/packages/nfephp-org/sped-ibge
 [link-author]: https://github.com/nfephp-org
 [link-issues]: https://github.com/nfephp-org/sped-ibge/issues
