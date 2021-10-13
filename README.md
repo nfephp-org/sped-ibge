@@ -25,7 +25,7 @@ Esta classe possui 2 métodos principais e vários modificadores.
 
 ## [function estados()](Estados.md)
 
-## [function municipios($uf)](Municipios.md)
+## [function cidades($uf)](Municipios.md)
 
 > *IMPORTANTE: a pasta "storage" deve ter permissões de escrita pelo usuário que executa o PHP.*
 
@@ -84,7 +84,6 @@ Para que este pacote possa funcionar são necessários os seguintes requisitos d
 [ico-scrutinizer]: https://img.shields.io/scrutinizer/coverage/g/nfephp-org/sped-ibge.svg
 [ico-code-quality]: https://img.shields.io/scrutinizer/g/nfephp-org/sped-ibge.svg
 [ico-version]: https://img.shields.io/packagist/v/nfephp-org/sped-ibge.svg
-
 
 
 [link-packagist]: https://packagist.org/packages/nfephp-org/sped-ibge

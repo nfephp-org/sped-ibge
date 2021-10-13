@@ -118,4 +118,22 @@ try {
 }
 ```
 
+## Estaticamente
+
+A classe também pode ser invocada estaticamente.
+
+```php
+use NFePHP\Ibge\Ibge;
+
+try {
+    $resp = Ibge::uf()->estados()->get();
+    echo "<pre>";
+    print_r($resp);
+    echo "</pre>";
+} catch (\Exception $e) {
+    echo $e->getMessage();
+}
+```
+
+
 
